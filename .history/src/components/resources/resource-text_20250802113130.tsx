@@ -12,7 +12,7 @@ const ResourceText = () => {
                 </li>
                 <li className="text-[#FFFFFF] list-disc text-justify font-Inter text-[16px] leading-[21px] underline font-normal">
 
-                    DoD Artificial Intelligence Strategy, 12 February 2019
+                     DoD Artificial Intelligence Strategy, 12 February 2019
                 </li>
                 <li className="text-[#FFFFFF] list-disc text-justify font-Inter text-[16px] leading-[21px] underline font-normal">
                     DoD C3 Modernization Strategy, September 2020

@@ -126,3 +126,4 @@ const ResourceText = () => {
 };
 
 export default ResourceText;
+

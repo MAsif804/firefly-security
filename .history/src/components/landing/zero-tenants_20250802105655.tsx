@@ -50,7 +50,7 @@ const ZeroTenants = () => {
         </div>
         <div className="flex w-full items-center justify-center gap-4 sm:gap-5 md:gap-[25px] flex-wrap">
           {tenants.map((item) => (
-            <Card key={item.id} className="flex w-[300px] h-[320px] flex-col p-4 items-start gap-3 sm:gap-[12px] rounded-[8px] border border-[#6380A9] bg-[#33415533] m-2">
+            <Card key={item.id} className="flex w-full sm:w-[calc(50%-12px)] md:w-[calc(3%-16px)] lg:w-[calc(28%-24px)] h-auto min-h-[220px] sm:min-h-[250px] md:min-h-[289px] flex-col p-4 items-start gap-3 sm:gap-[12px] rounded-[8px] border border-[#6380A9] bg-[#33415533]">
             <img src={item.image} alt={`${item.title} icon`} className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] aspect-square" />
             <h6 className="text-[#FDED1B] font-Inter text-sm sm:text-[16px] font-semibold leading-tight sm:leading-[20px]">
               {item.title}

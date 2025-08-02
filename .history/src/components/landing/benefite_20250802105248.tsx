@@ -8,7 +8,7 @@ const Benefite = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
-            className="flex w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-[88px] py-8 sm:py-[35px] flex-col md:flex-row justify-between items-center gap-8 md:gap-10 lg:gap-12 bg-[#1A2236] overflow-hidden bg-no-repeat"
+            className="flex w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-[88px] py-8 sm:py-[35px] flex-col md:flex-row justify-between items-center md:items-start gap-8 md:gap-10 lg:gap-12 bg-[#1A2236] overflow-hidden bg-no-repeat"
         >
             {/* left */}
             <div className="flex w-full md:w-[45%] lg:w-[369px] flex-col items-center md:items-start gap-5 sm:gap-[23px] max-w-[500px]">

@@ -37,12 +37,12 @@ const ZeroTenants = () => {
       <div className="flex w-full flex-col items-start gap-6 sm:gap-8 md:gap-[37px]">
         <div className="flex w-full items-center justify-center gap-4 sm:gap-5 md:gap-[25px] flex-wrap">
           {tenants.map((item) => (
-            <Card key={item.id} className="flex w-full sm:w-[calc(50%-24px)] lg:w-[calc(50%-48px)] h-auto min-h-[300px] sm:min-h-[400px] md:min-h-[539px] flex-col p-3 sm:p-4 items-start gap-2 sm:gap-3 md:gap-[12px] rounded-[8px] border border-[#6380A9] bg-[#33415533]">
-            <img src={item.image} alt={`${item.title} service`} className="w-full h-auto sm:h-[200px] md:h-[250px] lg:h-[289px] object-cover" />
-            <h6 className="text-[#FDED1B] font-Inter text-sm sm:text-[14px] md:text-[16px] font-semibold leading-tight sm:leading-[20px]">
+            <Card key={item.id} className="flex w-[340px] h-[500px] flex-col p-4 items-start gap-3 rounded-[8px] border border-[#6380A9] bg-[#33415533] m-2">
+            <img src={item.image} alt={`${item.title} service`} className="w-full h-[250px] object-cover" />
+            <h6 className="text-[#FDED1B] font-Inter text-[16px] font-semibold leading-[20px]">
               {item.title}
             </h6>
-            <p className="text-[#D6DEEA] text-left sm:text-justify font-Inter text-xs sm:text-[12px] leading-relaxed sm:leading-[25px] font-normal">
+            <p className="text-[#D6DEEA] text-justify font-Inter text-[12px] leading-[25px] font-normal h-[200px] overflow-y-auto pr-2">
               {item.description}
             </p>
           </Card>
